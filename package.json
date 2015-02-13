@@ -1,0 +1,26 @@
+{
+  "name": "slackshots",
+  "version": "1.0.0",
+  "description": "Snap a camera pic and upload to Slack with each repo commit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelfish22/slackshots.git"
+  },
+  "keywords": [
+    "slack",
+    "photo",
+    "git",
+    "commit",
+    "shot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixelfish22/slackshots/issues"
+  },
+  "homepage": "https://github.com/pixelfish22/slackshots"
+}
