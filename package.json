@@ -2,7 +2,7 @@
   "name": "slackshots",
   "version": "1.0.0",
   "description": "Snap a camera pic and upload to Slack with each repo commit.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/pixelfish22/slackshots/issues"
   },
-  "homepage": "https://github.com/pixelfish22/slackshots"
+  "homepage": "https://github.com/pixelfish22/slackshots",
+  "dependencies": {
+    "commander": "^2.6.0",
+    "node-slack": "0.0.5"
+  }
 }
