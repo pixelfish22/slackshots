@@ -25,6 +25,11 @@
   "homepage": "https://github.com/pixelfish22/slackshots",
   "dependencies": {
     "commander": "^2.6.0",
-    "node-slack": "0.0.5"
+    "inquirer": "^0.8.0",
+    "slack-notify": "^0.1.4",
+    "valid-url": "^1.0.9"
+  },
+  "bin": {
+    "slackshots": "lib/index.js"
   }
 }
